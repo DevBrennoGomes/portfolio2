@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brenno Gomes | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Brenno Gomes</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#experience">Experiência</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="menu-btn">☰</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="https://via.placeholder.com/200" alt="Brenno Gomes" class="avatar">
+    <h1>Olá, eu sou <span>Brenno Gomes</span></h1>
+    <p>Programador e Engenheiro de Software apaixonado por criar soluções criativas e eficientes.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">Ver Projetos</a>
+      <a href="#contact" class="btn-outline">Entrar em Contato</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="about" class="section">
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou Brenno Gomes, programador e engenheiro de software com experiência em desenvolvimento
+      de soluções modernas, escaláveis e criativas. Tenho paixão por lógica, design de sistemas e
+      resolução de problemas complexos.
+    </p>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="skills" class="section">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-grid">
+      <div><i class="fab fa-python"></i><p>Python</p></div>
+      <div><i class="fab fa-js"></i><p>JavaScript</p></div>
+      <div><i class="fab fa-html5"></i><p>HTML5</p></div>
+      <div><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+      <div><i class="fab fa-react"></i><p>React</p></div>
+      <div><i class="fab fa-node-js"></i><p>Node.js</p></div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="section">
+    <h2>Projetos</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Sistema de Gestão</h3>
+        <p>Aplicação full-stack para gerenciar tarefas e equipes.</p>
+        <p>Tecnologias: React, Node.js, MongoDB</p>
+        <a href="https://github.com" target="_blank">Ver mais →</a>
+      </div>
+      <div class="card">
+        <h3>Dashboard Financeiro</h3>
+        <p>Dashboard interativo para visualização de métricas.</p>
+        <p>Tecnologias: React, Tailwind, Chart.js</p>
+        <a href="https://github.com" target="_blank">Ver mais →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência -->
+  <section id="experience" class="section">
+    <h2>Experiência & Formação</h2>
+    <div class="timeline">
+      <div class="timeline-item"><span>2023</span> Engenheiro de Software - Empresa X</div>
+      <div class="timeline-item"><span>2021</span> Desenvolvedor Frontend - Empresa Y</div>
+      <div class="timeline-item"><span>2019</span> Bacharel em Engenharia de Software</div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="section">
+    <h2>Contato</h2>
+    <form action="https://formspree.io/f/mayvlzjo" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu email" required />
+      <textarea name="message" placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <div class="socials">
+      <a href="mailto:email@email.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/55000000000"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © <span id="year"></span> Brenno Gomes. Todos os direitos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
